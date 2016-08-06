@@ -4,42 +4,34 @@ Learn how to use this tour: including how to navigate the different lessons and 
 The Go Authors
 https://golang.org
 
-* Xin chao, 世界
+* Xin chào, GoPhers Việt Nam
 
-Welcome to a tour of the [[https://golang.org/][Go programming language]].
+Chào mừng đến với tour của [[https://golang.org/][Ngôn Ngữ Lập Trình Tour]].
 
-The tour is divided into a list of modules that you can
-access by clicking on
-[[javascript:highlight(".logo")][A Tour of Go]] on the top left of the page.
+Tour được chia ra làm một danh sách các module, bạn có thể truy cập bằng cách nhấn chuột vào
+[[javascript:highlight(".logo")][A Tour of Go]] nằm ở góc bên trái phía trên màn hình.
 
-You can also view the table of contents at any time by clicking on the [[javascript:highlightAndClick(".nav")][menu]] on the top right of the page.
+Bạn có thể tra khảo bảng mục lục bất cứ lúc nào bạn muốn bằng cách nhấn vào [[javascript:highlightAndClick(".nav")][menu]] nằm phía trên bên phải màn hình.
 
-Throughout the tour you will find a series of slides and exercises for you
-to complete.
+Qua Tour bạn có thể thấy 1 loạt các slide và bài tập để thực hành.
 
-You can navigate through them using
+Bạn có thể chuyển qua lại giữa các trang bằng cách
 
-- [[javascript:highlight(".prev-page")]["previous"]] or `PageUp` to go to the previous page,
+- [[javascript:highlight(".prev-page")]["Prev Page"]] hoặc `PageUp` để về trang trước,
 
-- [[javascript:highlight(".next-page")]["next"]] or `PageDown` to go to the next page.
+- [[javascript:highlight(".next-page")]["Next Page"]] or `PageDown` để chuyển đến trang tiếp theo.
 
-The tour is interactive. Click the
-[[javascript:highlightAndClick("#run")][Run]] button now 
-(or type `shift-enter`) to compile and run the program on
-#appengine: a remote server.
-your computer.
-The result is displayed below the code.
+Tour là một trình tương tác. Click vào nút [[javascript:highlightAndClick("#run")][Run]] (hoặc gõ `shift-enter`) để dịch và chạy trên chương trình trên máy chủ và trả lại kết quả về máy bạn.
+Kết quả sẽ được hiển thị dưới khung code.
 
-These example programs demonstrate different aspects of Go. The programs in the tour are meant to be starting points for your own experimentation.
+Những ví dụ dưới đây sẽ cho bạn thấy được những việc mà Go có thể làm được. Những trương trình trong Tour sau đây chính là điểm khởi đầu cho quá trình nghiên cứu của bạn.
 
-Edit the program and run it again.
+Hãy thử chỉnh sửa lại code và nhấn [[javascript:highlightAndClick("#run")][Run]] một lần nữa.
 
-Note that when you click on [[javascript:highlightAndClick("#format")][Format]] or `ctrl-enter`
-the text in the editor is formatted using the
-[[https://golang.org/cmd/gofmt/][gofmt]] tool. You can switch syntax highlighting on and off
-by clicking on the [[javascript:highlightAndClick(".syntax-checkbox")][syntax]] button.
+Lưu ý khi bạn click vào [[javascript:highlightAndClick("#format")][Format]] hoặc `ctrl-enter`
+Đoạn code trong trình hộp thoại sẽ được định dạng bởi công cụ [[https://golang.org/cmd/gofmt/][gofmt]]. bạn có thể tắt hoặc bật chức năng syntax highlighting bằng cách click vào [[javascript:highlightAndClick(".syntax-checkbox")][syntax]].
 
-When you're ready to move on, click the [[javascript:highlightAndClick(".next-page")][right arrow]] below or type the `PageDown` key.
+Khi bạn đã sẵn sàng để đi tiếp, click vào [[javascript:highlightAndClick(".next-page")][right arrow]] phía dưới hoặc bấm phím `PageDown`.
 
 .play welcome/hello.go
 
@@ -63,8 +55,9 @@ The tour is available in other languages:
 - [[https://go-tour-ua.appspot.com/][Ukrainian — Українська]]
 - [[https://go-tour-uz.appspot.com/][Uzbek — Ўзбекча]]
 - [[https://go-tour-turkish.appspot.com/][Turkish - Türkçe]]
+- [[https://tour.golangvn.net/][Vietnamese - Tiếng Việt]]
 
-Click the [[javascript:highlightAndClick(".next-page")]["next"]] button or type `PageDown` to continue.
+Nhấn [[javascript:highlightAndClick(".next-page")]["next"]] hoặc bấm phím `PageDown` để tiếp tục cuộc hành trình.
 
 #appengine: * Go offline
 #appengine: 
@@ -105,9 +98,9 @@ Click the [[javascript:highlightAndClick(".next-page")]["next"]] button or type 
 #appengine: 
 #appengine: .play welcome/sandbox.go
 
-* Congratulations
+* Chúc mừng
 
-You've finished the first module of the tour!
+Bạn vừa hoàn thành chương đầu tiên của Tour!
 
-Now click on [[javascript:highlightAndClick(".logo")][A Tour of Go]] to find out what else
-you can learn about Go, or go directly to the [[javascript:click('.next-page')][next lesson]].
+Bây giờ click vào [[javascript:highlightAndClick(".logo")][A Tour of Go]] để tìm những thứ bạn có thể học với Go
+, hoặc chuyển hướng tới trang tiếp theo [[javascript:click('.next-page')][next lesson]].

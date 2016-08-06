@@ -13,7 +13,8 @@ Khi chương trình chạy điểm đầu tiên nó sẽ tìm đến là package
 Như ở ví dụ, CT này đang sử dụng 2 package `"fmt"` và "math/rand"` chúng được nhúng vào bằng câu lệnh `import`.
 
 By convention, the package name is the same as the last element of the import path. For instance, the `"math/rand"` package comprises files that begin with the statement `package`rand`.
-
+Theo quy tắc, Các tên của package được định nghĩa trùng với phần tử cuối cùng của đường dẫn import.
+Ví dụ, package `"math/rand"` nó chứa đựng những file bắt đầu bằng statement `rand`
 #appengine: *Note:* the environment in which these programs are executed is
 #appengine: deterministic, so each time you run the example program
 #appengine: `rand.Intn` will return the same number.
@@ -24,24 +25,21 @@ By convention, the package name is the same as the last element of the import pa
 
 * Imports
 
-This code groups the imports into a parenthesized, "factored" import statement. 
+Đoạn code bên cạnh nhóm tất cả các thư viện cần import vào trong một cặp ngoặc đơn.
 
-You can also write multiple import statements, like:
+Bạn có thể import nhiều thư viện vào trên nhiều giòng khách nhau như cách sau đây:
 
 	import "fmt"
 	import "math"
 
-But it is good style to use the factored import statement.
-
 .play basics/imports.go
 
-* Exported names
+* Exported names (File xuất ra)
 
-In Go, a name is exported if it begins with a capital letter.
-For example, `Pizza` is an exported name, as is `Pi`, which is exported from
-the `math` package.
+Trong Go, một tên được gọi là `exported` nếu như nó được bắt đầu bằng một kí tự in hoa.
+Ví dụ, `Pizza` là một exported name, giống như là `Pi` được xuất ra từ package `math`.
 
-`pizza` and `pi` do not start with a capital letter, so they are not exported.
+`pizza` và `pi` không được bắt đầu bởi kí tự in hoa, Vì vậy chúng sẽ không được xuất ra ngoài.
 
 When importing a package, you can refer only to its exported names.
 Any "unexported" names are not accessible from outside the package.
